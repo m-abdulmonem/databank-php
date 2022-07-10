@@ -1,0 +1,40 @@
+
+/*
+iPhone – 320 x 480Samsung, HTC, LG – 320 x 480
+ */
+@media (max-width: 320px)  {
+    .form-auth-login{
+        width: 100%;
+    }
+}
+
+@media (max-width: 430px) {
+    .form-auth-login{
+        width: 100%;
+        padding: 20px;
+    }
+    .form-auth-login .form-login i{
+        position: absolute;
+        margin-left: -33%;
+    }
+}
+/*
+iPhone – 320 x 480HTC, LG, Samsung, Motorola – 320 x 480HTC, LG, Samsung, Motorola, Nokia Lumia
+– 480 x 800
+ */
+@media only screen and(max-width: 480px)  {
+    .form-auth-login{
+        max-width: 480px;
+    }
+}
+
+
+
+
+/*
+iPhone – 320 x 480HTC, LG, Samsung, Motorola – 320 x 480HTC, LG, Samsung, Motorola, Nokia Lumia
+– 480 x 800
+ */
+@media only screen and (max-width: 768px) {
+
+}
